@@ -44,9 +44,7 @@
                 </x-button>
             </div>
         </form>
-        <div style="margin:15px;justify-items: center;display:grid; grid-template-columns: repeat(3,1fr)">
-            <a href="{{ route('auth.google') }}"><img src="https://cdn4.iconfinder.com/data/icons/logos-brands-7/512/google_logo-google_icongoogle-512.png" width="50px"></a>
-            <a href="{{ route('auth.facebook') }}"><img src="https://www.freeiconspng.com/uploads/facebook-png-icon-follow-us-facebook-1.png" width="50px"></a>
+        <div style="margin:15px;justify-items: center;display:grid; grid-template-columns: repeat(1,1fr)">
             <a href="{{ route('auth.github') }}"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="50px"></a>
         </div>
     </x-authentication-card>
